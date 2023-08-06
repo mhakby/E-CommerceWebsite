@@ -4,6 +4,9 @@
 //  put : sunucudaki bir veriyi güncellemeye yarar.
 //  delete : bir veriyi silemey yarar.
 
+
+
+
 // Get örneği
 // istek atma işlemini bir fonksiyona tanımlıyoruz.
 function getUsers(){
@@ -13,10 +16,34 @@ function getUsers(){
   .catch((error)=> console.log(error));
 }
 
+
+
+
+
 // Fonksiyonu çağırıp isteği gerçekleştirme durumu
 getUsers()
+
+
+
+
 
 // Eğer her bir elemanı çağırıp ekrana yazmak istersek
 function renderUsers(users){
     users.forEach((user) => document.write(user.name, '<br>'));
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
