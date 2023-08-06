@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <h1 class="logo">E-Commerce</h1>
+            <input type="text" class="search" placeholder="search">
+            <div class="buttons">
+                <button id="basket">Basket</button>
+                <button>Sign Up</button>
+                <button>Login</button>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <!-- Categories -->
+        <section id="categor-sec">
+            <h1>Categories</h1>
+            <div class="categories">
+            </div>
+        </section>
+
+        <!-- Products -->
+        <section>
+            <h1>Products</h1>
+            <div class="products"></div>
+        </section>
+    </main>
+
+    <!-- Modal (Basket Window) -->
+    <div class="modal-wrapper">
+        <div class="modal">
+            <div id="icon">
+                <img id="close" src="Images/basketW-close.png" >
+            </div>
+            <div id="list"></div>
+            <p id="total">
+                <span id="count">0 piece </span> Total:
+                <span id="total-price">0</span>$;
+              </p>
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
